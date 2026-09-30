@@ -1,0 +1,111 @@
+* { 
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+    }
+
+body {
+     background-color:rgb(156, 221, 238);
+     color: white;
+     font-family:Arial, Helvetica, sans-serif
+    }
+
+.navbar {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     position: fixed;
+     background-color: black;
+     width: 100%;
+     padding-inline: 60px;
+     padding-block: 30px;
+    }
+
+ .navbar h1 {
+     color:rgb(255, 253, 253);
+     display: flex;
+     padding: 20px;
+    }
+    
+ 
+ .nav-menu {
+     display: flex;
+     align-items: center;
+      gap: 40px;
+    }
+      
+.nav-menu a {
+     color:white;
+     text-decoration: none;
+      font-weight: 720;
+    }
+      
+.nav-menu a:hover {
+     color:rgb(133, 232, 250);
+     animation-duration: 10ms;
+    }
+     
+.hero-section {
+     padding-block: 160px;
+     padding-inline: 60px;
+     display: flex;
+     align-items :center;
+    justify-content: space-between;
+}
+     
+.content h1 {
+     font-size: 80px;}
+
+.content h1 span {
+     color:rgb(194, 117, 117);
+    }
+ 
+.content h2 {
+     font-size: 40px;
+    }
+ 
+.content h2 span {
+     color: rgb(51, 40, 40);
+    }
+     
+.content p {
+     max-width: 500px;
+    }
+
+img {
+    width: 500px;
+    border-radius: 100%;
+}
+
+.btn-medsos {
+    display:flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.btn-medsos button {
+    padding: 15px;
+    border-radius: 100%;
+    background-color: transparent;
+    border-color: antiquewhite;
+}
+.btn-medsos button:hover {
+    background-color:rgb(106, 164, 230);
+    color: antiquewhite;
+
+}
+
+.senggol-aku {
+    display: flex;
+    margin-top: 15px;
+    background-color:transparent;
+    border:none;
+    padding: 20px;
+    padding-inline: ;
+}
+.senggol-aku:hover {
+    background-color:blanchedalmond;
+    color:rgb(21, 23, 24);
+    border-radius: 20%;
+}
+
